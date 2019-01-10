@@ -38,7 +38,7 @@ form-control:focus {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 
 }
 
@@ -75,6 +75,7 @@ form-control:focus {
 
 .text-jumbo h1 {
     font-size: 4vw;
+    font-family: 'Black Ops One', cursive;
 
 }
 
@@ -114,18 +115,18 @@ img {
     width: 100%;
     height: 100%;
     margin: 0px auto;
-    outline:solid 1px #040504;
+    outline: solid 1px #040504;
     border-radius: 0;
 }
 
 .card-body {
     background-color: #ECF0F1;
-    outline:solid 1px #040504;
+    outline: solid 1px #040504;
 }
 
 .card .img {
     margin-top: 30px;
-   
+
 
 }
 
@@ -142,7 +143,8 @@ img {
 }
 
 .card-title {
-    font-family: 'Permanent Marker', cursive;
+
+    font-family: 'Black Ops One', cursive;
 
     color: #ECF0F1;
     text-shadow: 2px 2px 0 #040504;
@@ -181,7 +183,7 @@ nav {
 span {
     color: #011936;
     text-shadow: 2px 2px #36A0FF;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Permanent Marker', cursive;
 
 }
 
@@ -210,8 +212,8 @@ span {
 }
 
 footer {
-    width: 90%;
-    margin: 5px auto;
+    width: 100%;
+    margin-top: 20px;
     color: #040504;
 
 
@@ -249,7 +251,7 @@ footer {
 
 .verzendK {
     position: relative;
-    
+
 }
 
 .verzendK input {
@@ -260,13 +262,23 @@ footer {
     position: absolute;
     left: 25px;
     top: 10px;
-    color:#ECF0F1;
+    color: #ECF0F1;
 
 }
 
 
 .blockquote {
-    font-size: 20px;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 10px;
+
+}
+
+.blockquote-footer {
+    text-align: right;
+    font-size: 10px;
+    margin: 0 auto;
+    border-bottom: solid 1px #040504;
 }
 
 iframe {
@@ -281,7 +293,7 @@ iframe {
     height: 500px;
     width: 100%;
     margin-bottom: 40px;
-    outline:solid 1px #040504;
+    outline: solid 1px #040504;
 }
 
 .gmap_canvas {
@@ -301,11 +313,11 @@ iframe {
     font-size: 50px;
     text-align: center;
     padding: 20px;
-    outline:solid 1px #040504;
-    margin-top:10px;
+    outline: solid 1px #040504;
+    margin-top: 10px;
     font-family: 'Black Ops One', cursive;
     background-color: #36A0FF;
-    
+
 
 }
 
@@ -313,7 +325,7 @@ iframe {
 
     .hoofd {
         font-size: 20px;
-        
+
 
     }
 
