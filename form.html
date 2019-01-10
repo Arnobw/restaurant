@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css.map">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Barlow|BenchNine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welkom op mijn eethuis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="assets/js/main.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+
+<body>
+
+
+
+        <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+                    <ul class="navbar-nav ml-auto">
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+        
+                        <li class="nav-item">
+        
+        
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="info.html">Locaties</a>
+                        </li>
+        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="foto.html">Foto's</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Info</a>
+                        </li>
+        
+                    </ul>
+        
+                </div>
+            </nav>
+        
+
+
+   <div class="container">
+    
+<h4 class="formpje">Vraag hier maar wat dingen en ik zal ooit wel eens kijken en misschien zelfs lezen en antwoorden! <br> <span>Succes!</span></h4>
+
+
+      <form id="contact-form" method="post" action="contact.php" role="form">
+
+        <div class="messages"></div>
+
+        <div class="controls">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_name"></label>
+                <input id="form_name" type="text" name="name" class="form-control" placeholder="Voornaam *" required="required" data-error="Firstname is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_lastname"></label>
+                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Achternaam *" required="required" data-error="Lastname is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_email"></label>
+                <input id="form_email" type="email" name="email" class="form-control" placeholder="Geef je email in aub *" required="required" data-error="Valid email is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_need"></label>
+                <select id="form_need" name="need" placeholder="Waarom mail je mij hoor" class="form-control" required="required" data-error="Please specify your need.">
+                  <option value=""></option>
+                  <option value="Request quotation">Reservatie</option>
+                  <option value="Request order status">Levensverhaal</option>
+                  <option value="Request copy of an invoice">Klachten (wie leest dit?)</option>
+                  <option value="Other">Other</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_message"></label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Heb je nog iets te zeggen dan *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-12 verzendK">
+              <input type="submit" class="btn btn-success btn-send" value="Send message">
+              <i class="fab fa-font-awesome"></i>
+            </div>
+          </div>
+        </div>
+
+      </form>
+
+
+   </div>
+
+
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
